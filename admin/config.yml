@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR_USERNAME/novel-site
+  repo: Mn3ff20/novel-site
   branch: main
 
 media_folder: "novels/uploads"
