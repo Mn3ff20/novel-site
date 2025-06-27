@@ -3,9 +3,23 @@ backend:
   repo: mn3ff20/novel-site
   branch: main
   open_authoring: true
-  auth_scope: repo
-  auth_endpoint: https://github.com/login/oauth/authorize
-  api_root: https://api.github.com
-  base_url: https://github.com/login/oauth/authorize
-  auth_type: implicit
-  client_id: YOUR_CLIENT_ID  Ov23li1ircDrH2E9WNKd
+
+media_folder: "novels/uploads"
+public_folder: "/novels/uploads"
+
+media_library:
+  name: uploadcare
+  config:
+    publicKey: "demopublickey"
+
+collections:
+  - name: "novels"
+    label: "روايات"
+    folder: "novels"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "عنوان الرواية", name: "title", widget: "string" }
+      - { label: "نبذة", name: "description", widget: "text" }
+      - { label: "غلاف", name: "cover", widget: "image" }
+      - { label: "محتوى", name: "body", widget: "markdown" }
