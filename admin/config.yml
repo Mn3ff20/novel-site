@@ -3,6 +3,7 @@ backend:
   repo: mn3ff20/novel-site
   branch: main
   open_authoring: true
+  publish_mode: editorial_workflow
 
 media_folder: "novels/uploads"
 public_folder: "/novels/uploads"
