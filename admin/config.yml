@@ -24,3 +24,7 @@ collections:
       - { label: "نبذة", name: "description", widget: "text" }
       - { label: "غلاف", name: "cover", widget: "image" }
       - { label: "محتوى", name: "body", widget: "markdown" }
+      - { label: "عنوان الرواية", name: "title", widget: "string" }
+      - { label: "نبذة", name: "description", widget: "text" }
+      - { label: "غلاف", name: "cover", widget: "image" }
+      - { label: "محتوى", name: "body", widget: "markdown" }
