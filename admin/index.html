@@ -6,13 +6,10 @@
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   </head>
   <body>
+    <div id="cms-root"></div>
     <script>
       window.CMS_MANUAL_INIT = true;
-    </script>
-    <script>
       window.addEventListener("DOMContentLoaded", function () {
-        const el = document.createElement("div");
-        document.body.appendChild(el);
         window.CMS.init();
       });
     </script>
