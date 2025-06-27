@@ -2,6 +2,7 @@ backend:
   name: github
   repo: mn3ff20/novel-site
   branch: main
+  open_authoring: true
   auth_scope: repo
   auth_endpoint: https://github.com/login/oauth/authorize
   api_root: https://api.github.com
